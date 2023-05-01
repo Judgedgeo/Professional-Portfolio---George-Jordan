@@ -1,0 +1,15 @@
+.form {
+    margin: 20px;
+    width: 600px;
+  }
+
+  .form input {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .form #message {
+    height: 100px;
+  }
