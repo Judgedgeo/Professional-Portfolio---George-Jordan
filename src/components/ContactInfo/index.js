@@ -1,7 +1,10 @@
 
 import React, { useState } from 'react';
 import './style.css';
-import { checkMessage, validateEmail } from '../../../utils/helpers';
+import { checkMessage, validateEmail } from '../../utils/helpers';
+
+
+
 
 export default function Contact() {const [email, setEmail] = useState('');
 const [name, setName] = useState('');

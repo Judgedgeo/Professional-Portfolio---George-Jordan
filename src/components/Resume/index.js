@@ -2,6 +2,7 @@
 // a list of the my proficiencies
 
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Resume() {
   return (
