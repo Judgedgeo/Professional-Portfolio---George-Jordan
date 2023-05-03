@@ -1,20 +1,19 @@
-// Recent Photo or Avatar
-// Short Biography
+// Short Bio
 import React from "react";
-// import 'style.css'
+
 
 function About() {
   return (
     <div>
-      <p className="content is-medium">Full Stack Developer looking to grow and apply the skills I have learned</p>
+      <p className="content is-medium">INSERT COMMENTS HERE</p>
       <hr />
 {/* CANT GET PIC TO GENERATE */}
-      <img className="me-pic" src={process.env.PUBLIC_URL + '/public/images/me.jpg'} alt="George K. Jordan"/>
+      <img className="me-pic" src={'https://user-images.githubusercontent.com/115055273/236050682-6b743fee-84e7-4b6c-88f7-42a86397af12.jpg'} alt="George K. Jordan"/>
       <p className="content is-italic mt-4">
-        I'm George, I am a full stack developer looking to apply my leanrings and grow with a company that focuses on developing people and their skill sets.
+      INSERT COMMENTS HERE
       </p>
       <p className="content">
-        I have 30+ years of management experience, and now look to grow in a field where I can apply my leadership skills as well as what I have learned in full stack developing.
+      INSERT COMMENTS HERE
       </p>
     </div>
   );

@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
-import './style.css';
-import { checkMessage, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 
 //WHEN CLICK ON SUBMIT,GET ERRORS
@@ -38,12 +37,12 @@ const handleFormSubmit = (e) => {
     return;
     // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
   }
-  if (!checkMessage(message)) {
-    setErrorMessage(
-      `Choose a more secure message for the account: ${name}`
-    );
-    return;
-  }
+  // if (!checkMessage(message)) {
+  //   setErrorMessage(
+  //     `Choose a more secure message for the account: ${name}`
+  //   );
+  //   return;
+  // }
   alert(`Hello ${name}`);
 
   // If everything goes according to plan, we want to clear out the input after a successful registration.
