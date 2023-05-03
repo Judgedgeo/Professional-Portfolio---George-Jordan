@@ -4,7 +4,7 @@ import './style.css';
 import { checkMessage, validateEmail } from '../../utils/helpers';
 
 
-
+//WHEN CLICK ON SUBMIT,GET ERRORS
 
 export default function Contact() {const [email, setEmail] = useState('');
 const [name, setName] = useState('');

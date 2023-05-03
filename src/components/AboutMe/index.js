@@ -8,7 +8,7 @@ function About() {
     <div>
       <p className="content is-medium">Full Stack Developer looking to grow and apply the skills I have learned</p>
       <hr />
-
+{/* CANT GET PIC TO GENERATE */}
       <img className="me-pic" src={process.env.PUBLIC_URL + '/public/images/me.jpg'} alt="George K. Jordan"/>
       <p className="content is-italic mt-4">
         I'm George, I am a full stack developer looking to apply my leanrings and grow with a company that focuses on developing people and their skill sets.
