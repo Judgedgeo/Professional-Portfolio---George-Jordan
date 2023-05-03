@@ -14,18 +14,29 @@ const projects = [
     repo: "https://github.com/jdalfaro4/Less_Waste_More_Taste",
     live: "https://less-waste-more-taste7.herokuapp.com/",
   },
+
+{
+    id: 1,
+    title: "Cutie Pies",
+    languages: "java script, css, html",
+    packages: "",
+    image: "/public/images/Cutie.png",
+    description: "",
+    repo: "",
+    live: "https://jdalfaro4.github.io/Cutie-Pies/",
+  },
 ];
 
 function Portfolio() {
   return (
-    <div>
+<div>
       <p className="content is-medium">Portfolio</p>
-      <hr />
+
       <img src={require('../../images/LessWaste.png')}></img>
 
-      <Project projects={projects} />
+      <Project projects={projects}/>
     </div>
-  );
-}
+  )
+};
 
 export default Portfolio;
