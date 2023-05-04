@@ -76,8 +76,6 @@ function Portfolio() {
   return (
 <>
       <p className="content is-medium">Portfolio</p>
-
-
       <Project projects={projects}/>
     </>
   )
