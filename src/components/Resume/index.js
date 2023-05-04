@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Resume() {
   return (
+    <section class="resumeimage" id="home">
     <div className="columns">
       <div className="column">
         <p className="content is-medium">Résumé</p>
@@ -19,7 +20,7 @@ function Resume() {
           <span className="icon">
             <i className="fas fa-download"></i>
           </span>
-          <span>Download My Resume</span>
+          <span id="download">Download My Resume</span>
         </a>
       </div>
       <div className="column">
@@ -36,6 +37,7 @@ function Resume() {
         </ul>
       </div>
     </div>
+    </section>
   );
 }
 
