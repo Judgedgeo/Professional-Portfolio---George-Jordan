@@ -14,7 +14,7 @@ function ContactForm() {
 
       <form className="form" onSubmit={handleSubmit}>
 
-        {/* <label htmlFor="email">Contact</label> */}
+      <input id="name" type="name" name="name" placeholder="Name"/>
         <input id="email" type="email" name="email" placeholder="Email Address" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea id="message" name="message" placeholder="Enter your message here."/>

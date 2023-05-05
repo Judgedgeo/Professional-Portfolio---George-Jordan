@@ -67,9 +67,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#name {
+  margin-left: 600px;
+  width: 600px;
+}
+
 #message {
-  margin-left: 650px;
-  width: 500px;
+  margin-left: 600px;
+  width: 600px;
 }
 #email {
   margin-left: 600px;

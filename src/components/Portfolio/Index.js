@@ -5,8 +5,6 @@ const projects = [
   {
     id: 0,
     title: "Less Waste, More Taste",
-    languages: "java script, css, html",
-    packages: "bcrypt, express.js, nodemon, heroku,axios, handlebars ",
     image:
       "https://user-images.githubusercontent.com/115055273/236050660-646ba2b4-263f-46b0-b15c-af20335dcd17.png",
     description:
@@ -18,8 +16,6 @@ const projects = [
   {
     id: 1,
     title: "Cutie Pies",
-    languages: "java script, css, html",
-    packages: "",
     image:
       "https://user-images.githubusercontent.com/115055273/236050540-162c8515-1c84-4618-be7f-464053b8d184.png",
     description: "A website you can order your favorite pies from.",
@@ -30,8 +26,6 @@ const projects = [
   {
     id: 2,
     title: "The Daily Grind",
-    languages: "java script, css, html",
-    packages: "Jquery, Moment",
     image:
       "https://user-images.githubusercontent.com/115055273/236050622-02733518-d47b-4b3b-816c-462a1a6bf8d5.png",
     description: "A daily Calendar to keep yourself organized.",
@@ -42,10 +36,9 @@ const projects = [
   {
     id: 3,
     title: "The Weather Detector",
-    languages: "java script, css, html",
-    packages:
+    image:
       "https://user-images.githubusercontent.com/115055273/236072418-0f7cb8f7-3520-4244-854b-7eac99cf781c.png",
-    image: "/public/images/Weather",
+
     description: "An App to see the weather forcast in your city",
     repo: "https://github.com/Judgedgeo/The-Weather-Detector",
     live: "https://judgedgeo.github.io/The-Weather-Detector/",
@@ -54,8 +47,6 @@ const projects = [
   {
     id: 4,
     title: "Power Gen",
-    languages: "java script, css, html",
-    packages: "",
     image:
       "https://user-images.githubusercontent.com/115055273/236050642-a8a8bb67-66ab-4784-b5ae-40ded5ec9493.png",
     description: "An App to create secure passwords for you.",
@@ -66,8 +57,6 @@ const projects = [
   {
     id: 5,
     title: "Big Brother Employee Tracker",
-    languages: "java script, css, html",
-    packages: "",
     image:
       "https://user-images.githubusercontent.com/115055273/236050281-2987fe21-cce0-4e7b-987f-df0d7ff2ceb5.png",
     description: "A rpogram to track your employees by department and titles",
