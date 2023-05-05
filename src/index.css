@@ -128,3 +128,7 @@ text-decoration: none;
   max-height: 100%;
 
 }
+
+.btn btn-primary {
+color: brown;
+}
