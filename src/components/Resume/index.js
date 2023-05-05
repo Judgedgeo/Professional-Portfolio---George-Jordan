@@ -31,6 +31,7 @@ function Resume() {
             <li>HTML, CSS, Javascript</li>
             <li>OpenAPI, JSON</li>
             <li>React</li>
+            <li>State</li>
             <li>Markdown</li>
             <li>Git</li>
             <li>Github Repo Management</li>

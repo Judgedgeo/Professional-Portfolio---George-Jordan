@@ -21,7 +21,7 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={LessWaste}
           />
@@ -41,7 +41,7 @@ function Project() {
               href="https://github.com/jdalfaro4/Less_Waste_More_Taste"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
@@ -55,7 +55,7 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={Cutie}
           />
@@ -74,7 +74,7 @@ function Project() {
               href="https://github.com/jdalfaro4/Cutie-Pies"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
@@ -88,13 +88,16 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={DailyGrind}
           />
           <Card.Body>
             <Card.Title>The Daily Grind</Card.Title>
-            <Card.Text>A daily Calendar to keep yourself organized.</Card.Text>
+            <Card.Text>
+              A daily calendar that helps you stay on track and on time for your
+              daily reminders.
+            </Card.Text>
             <a
               href="https://judgedgeo.github.io/The-Daily-Grind/"
               class="btn btn-primary"
@@ -105,7 +108,7 @@ function Project() {
               href="https://github.com/Judgedgeo/The-Daily-Grind"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
@@ -119,15 +122,15 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={Weather}
           />
           <Card.Body>
             <Card.Title>The Weather Detector</Card.Title>
             <Card.Text>
-              Recipe App to help you use available ingredients in order to
-              create you a Recipe.
+              A Weatherprogram that allows you to see the weather in your area
+              orcities you may visit.
             </Card.Text>
             <a
               href="https://judgedgeo.github.io/The-Weather-Detector/"
@@ -139,7 +142,7 @@ function Project() {
               href="https://github.com/Judgedgeo/The-Weather-Detector"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
@@ -153,15 +156,15 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={Generator}
           />
           <Card.Body>
             <Card.Title>Power Gen</Card.Title>
             <Card.Text>
-              Recipe App to help you use available ingredients in order to
-              create you a Recipe.
+              A Password Generator that helps you create secure passwords for
+              your devices, websites and email.
             </Card.Text>
             <a
               href="https://judgedgeo.github.io/Power-Gen/"
@@ -173,7 +176,7 @@ function Project() {
               href="https://github.com/Judgedgeo/Power-Gen"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
@@ -187,15 +190,15 @@ function Project() {
           }}
         >
           <Card.Img
-            style={{ height: "85%", objectFit: "cover" }}
+            style={{ height: "85%", objectFit: "fill" }}
             variant="top"
             src={Brother}
           />
           <Card.Body>
             <Card.Title>Big Brother Employee Tracker</Card.Title>
             <Card.Text>
-              Recipe App to help you use available ingredients in order to
-              create you a Recipe.
+              A program that helps you edit and view all your employees by
+              department and roles.
             </Card.Text>
             <a href="https://youtu.be/Fw4cr-QcVJs" class="btn btn-primary">
               Check it out Here
@@ -204,7 +207,7 @@ function Project() {
               href="https://github.com/Judgedgeo/The-Daily-Grind"
               class="btn btn-primary"
             >
-              Check out my repo
+              Check out my Repo
             </a>
           </Card.Body>
         </Card>
